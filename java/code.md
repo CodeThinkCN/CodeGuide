@@ -3,7 +3,7 @@
 
 ## 方法
 
-### 方法开头应该断言参数
+### 方法开头断言参数
 
 例如，下面的代码是重复字符串的代码：
 
@@ -30,7 +30,7 @@ public class Strings
         Preconditions.namedArgumentNonNull(string, "string");
         Preconditions.argument(count >= 0, "count must be bigger than or equals to 0!");
         
-        if (count == 0) {
+        if (count == 0 || string.length() == 0) {
             return string;
         }
         
