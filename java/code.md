@@ -97,7 +97,7 @@ public class Strings
         Preconditions.argument(count >= 0, "count must be bigger than or equals to 0!");    // 断言参数合法性
         
         if (count == 0 || string.length() == 0) {
-            return string;
+            return "";
         }
         
         final StringBuilder stringBuilder = new StringBuilder(string.length() * count);
