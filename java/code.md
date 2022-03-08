@@ -1,9 +1,15 @@
 ### CodeThink - CodeGuide
 # Java 代码规范
 
+## 包
+
+### 包名使用全小写
+
+类名应该使用全小写，不使用 `$` 和 `_`。例如，`cn.codethink.xiaoming`、`cn.chuanwise.lexicons`。
+
 ## 类
 
-### 类名
+### 类名使用大驼峰命名法
 
 类名应该使用大驼峰命名法，不使用 `$` 和 `_`。例如，`XiaoMingCode`、`XiaoMing`。
 
@@ -27,6 +33,10 @@ public class Strings
 ```
 
 ## 方法
+
+### 方法名使用小驼峰命名法
+
+方法名应该使用小驼峰命名法，不使用 `$` 和 `_`。例如，`isEmpty`，`nonEmpty`。
 
 ### 为 `public` 方法添加 `javadoc` 注释
 
@@ -221,3 +231,8 @@ class ClassName {
     }
 }
 ```
+
+### 使用 `@SuppressWarnings(...)` 忽略不必要的警告
+
+特别是泛型转换等操作上。如你确定此处不会出现异常，请用 `@SuppressWarnings(...)` 忽略不必要的警告。
+
