@@ -1,5 +1,5 @@
-**`CodeThink` - `CodeGuide` - `Java`**
-# Java 代码规范
+**`CodeThink` - `CodeGuide`**
+# Java
 
 ## 包
 

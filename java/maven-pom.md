@@ -1,5 +1,4 @@
-### CodeThink - CodeGuide
-# Maven `pom.xml`
+# Maven - `pom.xml`
 
 ### 显式指定源代码和编译版本
 

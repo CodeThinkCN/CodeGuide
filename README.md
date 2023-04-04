@@ -10,6 +10,9 @@
 `CodeThink` 代码规范不仅包括代码，还包括相关的配置文件，如下表所示。
 
 ### Java
+
 * [代码](./java/code.md)
+* **Gradle**
+  * [build.gradle](./java/gradle-build.md)
 * **Maven**
   * [pom.xml](./java/maven-pom.md)
